@@ -7,7 +7,7 @@ data class CurrentWeather(
     val temperature: Double,
     val time: String,
     val weatherStatus: Utils.WeatherInfoItem,
-    val windowDirection: String,
+    val windDirection: String,
     val windSpeed: Double,
     val isDay: Boolean
 )

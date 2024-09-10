@@ -78,6 +78,7 @@ dependencies {
     //retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+    implementation(libs.retrofit2.kotlinx.serialization.converter)
 
     //hilt
     implementation(libs.hilt.android)
@@ -94,6 +95,12 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(libs.kotlinx.serialization.json)
 
+    implementation(libs.okhttp)
+
     //Gson
     implementation(libs.gson)
+
+    //gms location
+    implementation(libs.play.services.location)
+    implementation(libs.accompanist.permissions)
 }
